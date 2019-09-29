@@ -1,10 +1,24 @@
 body {
     -webkit-font-smoothing: antialiased;
+    background-image: url("business.jpg");
     margin: 0;
     width: 100%;
     font-family: "Open Sans";
     font-weight: 400;
     background: rgb(255,255,255);
+    text-align: center;
+}
+
+.card-body {
+    margin-top: 50px;
+    align-content: center;
+
+}
+
+#startToday {
+    background-color: black;
+    color: white;
+    font-weight: bold;
 }
 
 footer {
