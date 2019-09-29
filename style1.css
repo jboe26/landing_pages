@@ -1,0 +1,42 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    width: 100%;
+    font-family: "Open Sans";
+    font-weight: 400;
+    background: rgb(255,255,255);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 70px;
+    text-align: center;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .section-fit {
+        max-width: 60rem;
+}
+    .section-inner {
+        height: 100%;
+    }
+    .section-relative {
+        position: relative;
+        margin: 0 auto;
+    }
+    .section-fit {
+        max-width: 400px;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    user agent stylesheet
+    div {
+        display: block;
+    }
+
+}
