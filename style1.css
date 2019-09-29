@@ -8,10 +8,22 @@ body {
     background: rgb(255,255,255);
     text-align: center;
 }
+#partner {
+    font-size: 30px;
+}
+
+#apply {
+    font-size: 25px;
+}
+
+#capital, .flexible {
+    font-size: 19px;
+}
 
 .card-body {
     margin-top: 50px;
     align-content: center;
+    text-align: center;
 
 }
 
@@ -20,6 +32,11 @@ body {
     color: white;
     font-weight: bold;
 }
+
+.flexible, .list, .information {
+    text-align: center;
+}
+
 
 footer {
     background-color: black;
