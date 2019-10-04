@@ -1,0 +1,85 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    background-image: url("business.jpg");
+    margin: 0;
+    width: 100%;
+    font-family: "Open Sans";
+    font-weight: 400;
+    background: rgb(255,255,255);
+    text-align: center;
+}
+#partner {
+    font-size: 30px;
+}
+
+#apply {
+    font-size: 25px;
+}
+
+#capital, .flexible {
+    font-size: 19px;
+}
+
+.card-body {
+    margin-top: 50px;
+    align-content: center;
+    text-align: center;
+
+}
+
+#startToday {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.flexible, .list, .information {
+    text-align: center;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    height: 70px;
+    text-align: center;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .section-fit {
+        max-width: 60rem;
+}
+    .section-inner {
+        height: 100%;
+    }
+    .section-relative {
+        position: relative;
+        margin: 0 auto;
+    }
+    .section-fit {
+        max-width: 400px;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    user agent stylesheet
+    div {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+:root {
+    font-size: 1.33vw;
+}
+
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+
+}
