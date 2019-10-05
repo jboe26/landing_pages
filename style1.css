@@ -1,11 +1,11 @@
 body {
     -webkit-font-smoothing: antialiased;
     background-image: url("https://anthill.instapage.com/projects/56c2f3d796773d0a7e96a536/events/visit?api_key=62d6608cd87aa5ff36fd24dcf5863cbd42570b7c73889e22f68daf787aae928855138ad103316f32f97211b79f97c69efa5a8d0ab04d1662e13db8d5adb977fe3e8b97e2747f56a6a57ab28dc0d67e448b2ff810cd7e0a5209f6101ceb61d02873cf5005fda3670ecbdb57e0e968fd234c556a1def06f4c269c0e58de790e7a04ab66a654ab7d49368e1c855174cd24b&amp;data=eyJwYWdlX3VybCI6Imh0dHBzOi8vY2FwaXRhbHNvbHV0aW9uc2luYy5jb20vc2VydmljZXMvYXNzZXQtYmFzZWQtbGVuZGluZyIsIm93bmVyX2lkIjoxNjU2NzY2LCJjdXN0b21lcl9pZCI6MTk0Nzk1MSwicGFnZV9pZCI6MTM0ODQyMDEsInB1Ymxpc2hlZF92ZXJzaW9uIjozNywidmFyaWF0aW9uX25hbWUiOiJBIiwidmFyaWF0aW9uX2lkIjoxLCJsaW5rZWRfdmFyaWF0aW9uX2lkIjoyLCJ2YXJpYXRpb24iOiJBIiwiZ2VuZXJhdGlvbl90aW1lIjoiMiIsInF1YW50aXR5IjoxLCJpbml0aWFsX3Jlc3BvbnNpdmVfbW9kZSI6bnVsbCwic3RhdGljX3BhZ2UiOmZhbHNlLCJqYXZhc2NyaXB0Ijp0cnVlLCJjYW1wYWlnbl9pZCI6ZmFsc2UsImFkX2lkIjpmYWxzZSwiY2FtcGFpZ25fc291cmNlIjpmYWxzZSwidmlzaXRlZCI6dHJ1ZSwicmVzcG9uc2l2ZV9tb2RlIjpudWxsLCJyZWYiOm51bGx9&amp;t=1570231852856");
-    margin: 0;
-    width: 100%;
+    margin: auto;
+    /* width: 100%; */
     font-family: "Open Sans";
     font-weight: 400;
-    background: rgb(255,255,255);
+    /* background: rgb(255,255,255); */
     text-align: center;
 }
 
@@ -50,9 +50,10 @@ form {
     margin-left: 10px;
     float: right;
     border-color: #D5c900;
+    padding: 50%;
 }
 
-#width {
+#textBox {
     width: 250px;
 }
 
