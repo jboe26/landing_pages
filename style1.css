@@ -12,11 +12,11 @@ body {
 p {
     font-family: "Open Sans";
     font-size: 26px;
-    text-align: center;
+    text-align: left;
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
 }
 #partner {
     font-size: 30px;
