@@ -41,6 +41,7 @@ h2 {
 #todayYellow {
     background-color: #D5c900;
     border: solid 5px #D5c900;
+    text-align: center;
 }
 
 .border {
